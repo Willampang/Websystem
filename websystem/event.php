@@ -37,14 +37,7 @@ Click nbfs://nbhost/SystemFileSystem/Templates/Project/PHP/PHPProject.php to edi
         </div>
 
 
-        <table>
-    <tr>
-        <td>100</td>
-        <td>2000</td>
-        <td>0000</td>
-        <td>2222</td>
-    </tr>
-</table>
+
 <footer>
 <img src="image/SnookerLogo.png" alt="Logo">
 <!--<div class="social">
