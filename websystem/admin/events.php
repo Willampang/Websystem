@@ -109,7 +109,7 @@ if(isset($_POST['delete_event'])) {
                         <td><?= $event['duration'];?></td>
                         <td>
                             <button class="approve-btn" onclick="redirectToEditEvent(<?= $event['id']; ?>)">Edit</button>
-                            <form method="post" style="display: inline;">
+                            <form method="post" style="display: inline;" onsubmit="return confirmDelete();">
                                 <input type="hidden" name="event_id" value="<?= $event['id']; ?>">
                                 <button type="submit" class="delete-btn" name="delete_event">Delete</button>
                             </form>
@@ -153,6 +153,10 @@ function redirectToAddEvent() {
 
 function redirectToEditEvent(eventId) {
     window.location.href = 'edit-events.php?eventId=' + eventId;
+}
+
+function confirmDelete() {
+    return confirm("Are you sure you want to delete this event?");
 }
 </script>
 </body>
