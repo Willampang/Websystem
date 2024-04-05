@@ -14,7 +14,7 @@
     <ul>
         <li><a href="admin.php">Manage Users</a></li>
         <li><a href="#">Bookings</a></li>
-        <li><a href="eventbooking.php">Events</a></li>
+        <li><a href="events.php">Events</a></li>
         <li><a href="#">Settings</a></li>
         <li id="logout" onclick="logout()"><a href="#">Log Out</a></li>
     </ul>
