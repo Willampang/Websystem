@@ -1,5 +1,5 @@
 <?php
-$conn = mysqli_connect("localhost", "root", "", "users");
+$conn = mysqli_connect("localhost", "root", "", "login");
 
 $error = "";
 $errorr = "";
@@ -20,7 +20,7 @@ if(isset($_POST["login-button"])){
             if(password_verify($password, $row['Password'])){
                 // Successful login
                 session_start();
-                header("location: /websystem/index.php");
+                header("location: ../websystem/index.php");
             } else {
                 $errorr = "Incorrect password. Please try again.";
             }
@@ -58,8 +58,8 @@ if(isset($_POST["register-button"])){
             $query1 = "INSERT INTO `users` (Username, Email, Password) VALUES ('{$username}','{$email}','{$hashed_password}')";
             $result = mysqli_query($conn, $query1); 
 
-            if($result){
-                header("Location: login-users.php");
+            if ($result) {
+                header("Refresh:0");
                 exit();
             }
             else{
