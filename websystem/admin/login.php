@@ -28,7 +28,7 @@ if(mysqli_connect_error())
             if(mysqli_num_rows($result) == 1)
             {
                 session_start();
-                header("location: ../websystem/admin/admin-welcome.php");
+                header("location: admin-welcome.php");
             }
             else if(mysqli_num_rows($result) == 0){
                 header("location: index.php?error=Wrong user name or password.");
