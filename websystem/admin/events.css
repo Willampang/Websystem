@@ -1,0 +1,31 @@
+h2#eventdetails{
+    display: inline;
+}
+
+button#addevent{
+    float: right;
+    display:inline;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    background-color: rgb(195, 0, 255);
+    border: none;
+    border-radius: 15px;
+    padding:8px;
+    color: white;
+}
+
+.error{
+    background: #00b950;
+    color:rgb(255, 255, 255);
+    padding:10px;
+    width: 95%;
+    border-radius: 5px;
+    
+}
+
+.success{
+    background: #00b950;
+    color:rgb(255, 255, 255);
+    padding:10px;
+    width: 95%;
+    border-radius: 5px;
+}

@@ -1,0 +1,25 @@
+/*Manage User Tab*/
+.booking-management {
+    margin-left: 270px;
+}
+
+
+.approve-btn, .delete-btn {
+    padding: 5px 10px;
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+.approve-btn {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+}
+
+.delete-btn {
+    background-color: #f44336;
+    color: white;
+    border: none;
+}
+
+

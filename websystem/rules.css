@@ -1,0 +1,34 @@
+html{
+    width:100%;
+    height:auto;
+}
+body{
+    width:100%;
+    height:auto;
+  background-color: rgba(30 30 30);
+}
+.rules{
+    width:98%;
+    height:auto;
+    float:left;
+}
+img{
+    width:100%;
+    height:20em;
+}
+.rules img{
+    height:23em;
+    width:auto;
+}
+h2{
+    text-align:center;
+    border:solid 2px rgba(235 0 59);
+    color:white;
+
+}
+
+#center{
+   margin-left:30px;
+   margin-right:auto;
+
+}

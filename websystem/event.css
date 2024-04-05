@@ -1,0 +1,22 @@
+.event img{
+display:flex;
+width: 90%;
+height:auto;
+padding-left:23px;
+}
+
+.event table{
+    width:100%;
+    height:auto;
+}
+th,td,tr{
+    color: white;;
+    border:solid 2px rgba(235 0 59);
+}
+
+th ,td{
+    width:30%;
+    text-align: center;
+    text-decoration: none;
+}
+

@@ -1,0 +1,98 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to edit this template
+/
+/ 
+    Created on : Aug 12, 2022, 11:19:32 PM
+    Author     : User
+/
+
+/Header*/
+html{
+    background-color: rgba(30 30 30);
+    background-size: cover;
+    background-repeat: no-repeat;
+  
+ 
+    margin: 0;
+}
+.booking{
+    margin: auto;
+    border-collapse: collapse;  
+    margin: 40px auto;
+    font-size: 0.9em;
+    min-width: 400px;
+    box-shadow: 0 0 20px ;
+    border-radius: 12px;
+     width: 20%;
+     border: 3px solid #73AD21;
+     padding: 10px;
+
+   
+}
+.button {
+    display: inline-block;
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 10px;
+    float: right;
+}
+
+.button:hover {
+    background-color: #0056b3;
+}   
+
+
+        body {
+            display: flex;
+            float: left;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            padding-left: 20px;
+        }
+        
+        form {
+            
+            background-color: gray;
+            width: 500px;
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            
+        }
+
+        label {
+            display: block;
+            margin-bottom: 5px;
+        }
+
+        input[type="text"],
+        input[type="email"],
+        input[type="date"],
+        input[type="time"] {
+            width: calc(100% - 10px);
+            margin-bottom: 10px;
+            padding: 5px;
+            border: 1px solid #ccc;
+            border-radius: 3px;
+        }
+
+        input[type="submit"] {
+            width: 100%;
+            padding: 10px;
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            border-radius: 3px;
+            cursor: pointer;
+        }
+
+        input[type="submit"]:hover {
+            background-color: #0056b3;
+        }

@@ -1,0 +1,86 @@
+.box{
+        width: 600px;
+        height: 400px;
+        position: relative;
+        margin:6% auto;
+        background:transparent;
+        padding:5px;
+        overflow: hidden;
+        border:2px solid rgb(0, 0, 0);
+        border-radius: 5%;
+        background-color: #fff;
+
+}
+.box img{
+    width:30%;
+    height: auto;
+}
+h2{
+    margin-left: 300px;
+    margin-top: -54px;
+}
+
+h5{
+    color: black;
+    text-align: center;
+}
+p{
+    color:black;
+}
+
+.details{
+	margin-left: 125px;
+}
+
+p{
+	margin-bottom: 5px;
+}
+
+.input{
+	height:25px;
+	width: 80%;
+	border-radius: 5px;
+	border:none;
+	box-shadow: 0px 0px 2px 3px grey;
+}
+
+.post{
+	margin-left: 125px;
+	margin-top: 7px;
+	margin-bottom: 10px;
+	color: white;
+	background-color: black;
+	height:30px;
+	border-radius: 5px;
+}
+
+.post:hover{
+	opacity: 0.7;
+}
+
+
+.rating {
+    unicode-bidi: bidi-override;
+    direction: rtl;
+    text-align: center;
+
+  }
+  
+  .rating > input {
+    display: none;
+  }
+  
+  .rating > label {
+    display: inline-block;
+    padding: 5px;
+    font-size: 45px;
+    margin-top: -50px;
+    cursor: pointer;
+  }
+  
+  .rating > label:hover,
+  .rating > label:hover ~ label,
+  .rating > input:checked ~ label {
+    color: orange;
+  }
+  

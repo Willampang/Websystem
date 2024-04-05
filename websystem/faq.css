@@ -1,0 +1,26 @@
+.faq .answer {
+    display: none;
+}
+
+.faq .open-ans {
+    cursor: pointer;
+}
+
+.faq .open-ans:hover {
+    text-decoration: underline;
+    
+    
+
+}
+
+.faq .open-ans.active {
+    color: white;
+}
+
+.faq .open-ans.active + .answer {
+    display: block;
+}
+
+h1{
+    text-align: center;
+}

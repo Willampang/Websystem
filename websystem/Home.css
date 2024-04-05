@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+/*Home Page Design*/
+
+
+body {
+  font-family: 'Poppins', sans-serif;
+ background-color:rgba(30 30 30);
+}
+
+.nav nav ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgba(235 0 59);
+}
+
+.logo {
+    width: 200px;
+    display: block;
+    max-width: 100%;
+    height: auto;
+  }
+.searchbar {
+  margin-left: auto;
+}
+
+.nav nav ul li {
+  list-style-type: none;
+  
+}
+
+.nav nav ul li a {
+  text-decoration: none;
+  color: black;
+  display: flex;
+  align-items: center;
+ 
+}
+
+.nav nav ul li a h4 {
+  margin: 0;
+  padding: 0 10px;
+  margin-right: 80px;
+}
+
+.nav nav ul li a:hover {
+  color:rgb(0, 238, 255),rgb(0, 255, 85);
+  background-color: grey;
+}
+
+.nav nav ul .right {
+  display: flex;
+  align-items: center;
+}
+
+.nav nav ul .searchbar {
+  margin-left: auto;
+}
+
+.nav nav ul .searchbar form input{
+  padding: 5px;
+  border: 1px solid #ccc; 
+  border-radius: 5px;
+}
+
+.nav nav ul .login-link {
+  display: flex;
+  align-items: center;
+  margin-left: 20px;
+}
+
+.nav nav ul .login-icon {
+  width: 40px;
+  height: auto;
+  display: block;
+  max-width: fit-content;
+  margin-right: 20px;
+}
+
+
+h1,h4,h3,p,nav,ul,li{
+  color:white;
+}
+
+/* slideshow */
+.slideshow {
+  overflow: hidden;
+  width: 100%;
+  height: 23em; 
+  margin-top: 20px;
+  
+}
+
+.slides {
+  display: flex;
+  width: 200%; 
+  animation: slideShow 25s infinite linear; 
+}
+
+.slides img {
+  width: 50%;
+  padding-left:5px;
+}
+
+.slides:hover {
+  animation-play-state: paused; /* this is let when mouse hover then thi animition will stop */
+}
+
+@keyframes slideShow {
+  10% {
+      transform: translateX(0);
+     
+  }
+  45%{
+    transform: translateX(-65%);
+
+  }
+70%{
+  transform: translateX(-110%);
+  
+}
+95% {
+  transform: translateX(-150%); 
+}
+  150% {
+      transform: translatey(50); 
+  }
+  
+}
+
+
+/*How To Play*/
+#how h1{
+  text-align: center; 
+}
+
+#how img{
+    margin-top: 100px;
+    width:99%;
+    height:17em;
+    margin-left: 10px;
+
+}
+
+/*footer design*/
+footer img{
+ padding-top: 5px;
+ padding-left: 5px;
+  height: 5em;
+  
+}
+
+footer{
+  width:100%;
+  height:auto;
+  float: left;
+  background-color:rgba(30 30 30);
+  display:flex;
+  border:2px solid white;
+  margin-top: 80px;
+}
+
+nav ul li a{
+  text-decoration: none;
+  color: black;
+}
+
+nav ul li a h4:hover {
+    color:black;
+    background-color: grey;
+}
+
+footer ul{
+  list-style: none;
+}
+
+/*.social{
+width:20%;
+height: auto;
+display: flex;
+float: left;
+}*/
+
+
