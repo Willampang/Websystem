@@ -10,7 +10,6 @@ Click nbfs://nbhost/SystemFileSystem/Templates/Project/PHP/PHPProject.php to edi
         <title>Snooker Society</title>
     </head>
     <body>
-
     <div class="nav">
             <nav>
                 <ul>
