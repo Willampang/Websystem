@@ -34,7 +34,7 @@ if(isset($_POST["addevent-button"])){
         $result = mysqli_query($conn, $query);
 
         if($result){
-            $_SESSION['event_edited'] = true;
+            $_SESSION['event_added'] = true;
             header("Location: events.php");
             exit();
         }
