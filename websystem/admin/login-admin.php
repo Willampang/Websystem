@@ -1,5 +1,5 @@
 <?php
-require("login.php");
+require("../websystem/login.php");
 ?>
 
 <!DOCTYPE html>
