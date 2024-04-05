@@ -36,73 +36,7 @@ Click nbfs://nbhost/SystemFileSystem/Templates/Project/PHP/PHPProject.php to edi
             </nav>        
         </div>
 
-<div class="event">
-    <table id="eventTable">
-        <thead>
-            <tr>
-              <th>Event Name</th>
-              <th>Time</th>
-              <th>Price</th>
-              <th>Available Seat</th>
-              <th>Pax</th> 
-           </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <th><img src="image/image1.png"></th>
-                <td>10.00pm</td>
-                <td class="priceCell" rowspan="1" colspan="1">15</td>
-                <td class="availableSeatCell" rowspan="1" colspan="4">40</td>
-                <td>
-                    <input name="Quantity" class="quantityInput" type="number" min="0" max="40" value="0" />
-               </td>
-            </tr>
-            <tr>
-                <th><img src="image/image2.png"></th>
-                <td>10.00pm</td>
-                <td class="priceCell" rowspan="1" colspan="1">5</td>
-                <td class="availableSeatCell" rowspan="1" colspan="4">60</td>
-                <td>
-                    <input name="Quantity" class="quantityInput" type="number" min="0" max="60" value="0" />
-               </td>
-            </tr>
-            <tr>
-                <th><img src="image/image3.png"></th>
-                <td>9.00am-10.00pm</td>
-                <td class="priceCell" rowspan="1" colspan="1">8</td>
-                <td class="availableSeatCell" rowspan="1" colspan="4">22</td>
-                <td>
-                    <input name="Quantity" class="quantityInput" type="number" min="0" max="22" value="0" />
-               </td>
-            </tr>
-            <tr>
-                <th><img src="image/image4.png"></th>
-                <td>9.00am-10.00pm</td>
-                <td class="priceCell" rowspan="1" colspan="1">10(For Register) </td>
-                <td class="availableSeatCell" rowspan="1" colspan="4">40</td>
-                <td>
-                    <input name="Quantity" class="quantityInput" type="number" min="0" max="40" value="0" />
-               </td>
-            </tr>
-            <tr>
-                <th><img src="image/image4.png"></th>
-                <td>9.00am-10.00pm</td>
-                <td class="priceCell" rowspan="1" colspan="1">15(For Views)</td>
-                <td class="availableSeatCell" rowspan="1" colspan="4">40</td>
-                <td>
-                    <input name="Quantity" class="quantityInput" type="number" min="0" max="40" value="0" />
-               </td>
-            </tr>
-            
-        </tbody>
-        <tfoot>
-            <tr>
-                <td colspan="5" id="totalCell">Total :0</td></a>
-                <td><a href="payment.php"><input type="button" value="Check out"></a></td>
-            </tr>
-        </tfoot>
-    </table>
-</div>
+
 
 <footer>
 <img src="image/SnookerLogo.png" alt="Logo">
