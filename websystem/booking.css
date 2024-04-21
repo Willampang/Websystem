@@ -3,6 +3,7 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 20px;
+
 }
 
 .left-container {
@@ -12,51 +13,46 @@
   width: 100%;
   grid-column: 1;
 
-
 }
 
-.left-up-column {
-  width: 70%;
-  padding: 20px;
-  border: 3px solid black;
-  margin: 20px 50px 20px 80px;;
-  background-color: white;
-  border-radius: 10px;
-  font-size: 20px;
-  font-weight: bold;
+.tablediv {
+  width: 100%;
+  display: flex;
+  margin: 0px 60px 5px 80px;
+  padding-bottom: 20px;
+  position: relative;
 }
 
-.left-down-column {
-  margin: 0px 50px 20px 80px;
-  width: 70%;
-  padding: 20px;
-  border: 3px solid black;
-  background-color: #fcfcfc;
-  color: rgb(0, 0, 0);
-  border-radius: 10px;
-  font-size: 20px;
-  font-weight: bold;
+.tablepic {
+  border: 2px solid black;
+  width: 80%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
 }
 
 .left-down-column2 {
-  margin: 0px 50px 0px 80px;
-  width: 70%;
+  margin: 0px 60px 5px 80px;
+  width: 75%;
   padding: 0 20px 0 20px;
   background-color: #fcfcfc;
   color: rgb(0, 0, 0);
   border-radius: 5px;
   font-size: 20px;   
-  transition: max-height 0.5s ease;
+  cursor: pointer;
 }
 
 .policy{
   color: black;
+  margin: 0;
 }
 
+
 .right-column form{
-  margin: 80px 0 0 50px;
+  margin: 0px 0 80px 50px;
   padding: 10px 20px 0px 20px;
-  height: 400px;
+  height: 550px;
   float: left;
   width: 70%;
   display: flex;
@@ -92,6 +88,34 @@
   background: linear-gradient(45deg,#eb003b,#ffe600,#eb003b);
   animation: color 15s ease-in-out infinite;
   background-size: 300% 300%;
+  cursor: pointer;
+}
+
+#submit:active {
+  background-color: #3e8e41;
+  box-shadow: 0 3px #666;
+  transform: translateY(0.2px);
+  
+  }
+  
+.btn{
+    width: 100%; 
+    height: 50px; 
+    background-color: #21b8e6; 
+}
+  
+#back {
+    margin-top: 0px;
+    text-align: center;
+    color: black;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+}
+  
+#back:hover {
+    text-decoration: underline;
 }
 
 @keyframes color{
@@ -106,18 +130,7 @@
 }
 }
 
-#submit:active {
-background-color: #3e8e41;
-box-shadow: 0 3px #666;
-transform: translateY(0.2px);
 
-}
-
-.btn{
-width: 100%; 
-height: 50px; 
-background-color: #21b8e6; 
-}
 
 @media only screen and (max-width: 600px) {
 .reservation-form {
